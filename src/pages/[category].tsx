@@ -37,8 +37,6 @@ export const getServerSideProps: GetServerSideProps<IProps> = async (context) =>
 }
 
 const Home: NextComponentType<NextPageContext, any, IProps> = (props) => {
-
-    console.log(props);
 	
 	return (
 		<>

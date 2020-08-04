@@ -48,7 +48,6 @@ const LoginComponent = (props: IProps) => {
 
         axios.post(loginEndpoint, loginData).then(res => {
             //redirect -> call callback function to handleLoginSuccess
-            // console.log(res.data)
             if (res.data.accountId) {
                 props.handleSuccessLogin();
             }
